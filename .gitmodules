@@ -1,0 +1,12 @@
+[submodule "HTTP-SOLO-LG"]
+	path = HTTP-SOLO-LG
+	url = https://github.com/ReXavJS/HTTP-SOLO-LG.git
+[submodule "views_sql"]
+	path = views_sql
+	url = https://github.com/imranemb/views_sql
+[submodule "sql-fonctions-procedures"]
+	path = sql-fonctions-procedures
+	url = https://github.com/nin0dev/sql-fonctions-procedures.git
+[submodule "interface-TCP"]
+	path = interface-TCP
+	url = https://github.com/Raboush/interface-TCP.git
