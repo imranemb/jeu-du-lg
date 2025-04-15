@@ -5,12 +5,12 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - DATABASE_URL=postgresql://flask_user:flask_password@db:5432/flask_db
+      - DATABASE_URL=postgresql://loupgarou:secret@db:5432/loupgarou_db
     depends_on:
       - db
 
 
-  db:
+  db: 
     image: postgres:13
     container_name: postgres
     environment:
