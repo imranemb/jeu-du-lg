@@ -5,12 +5,16 @@ services:
     ports:
       - "5001:5001"
     environment:
+<<<<<<< HEAD
       - DATABASE_URL=postgresql://lougarou:secret@db:5432/loupgarou_db
+=======
+      - DATABASE_URL=postgresql://loupgarou:secret@db:5432/loupgarou_db
+>>>>>>> d14a455886dd1fa472c51758f184d3795c9774d0
     depends_on:
       - db
 
 
-  db:
+  db: 
     image: postgres:13
     container_name: postgres
     environment:
