@@ -9,7 +9,7 @@ WORKDIR /app
 
 
 # Copier le fichier requirements.txt
-COPY requirements.txt .
+COPY /requirements.txt .
 
 
 # Installer les dépendances Python

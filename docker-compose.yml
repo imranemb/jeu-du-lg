@@ -1,11 +1,11 @@
 services:
   web:
     build: .
-    container_name: flask_app
+    container_name: lougarou
     ports:
       - "5001:5001"
     environment:
-      - DATABASE_URL=postgresql://flask_user:flask_password@db:5432/flask_db
+      - DATABASE_URL=postgresql://lougarou:secret@db:5432/loupgarou_db
     depends_on:
       - db
 
